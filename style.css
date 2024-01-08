@@ -1,0 +1,66 @@
+@font-face {
+    src: url(assets/Summer.otf);
+    font-family: summer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(161, 204, 209);
+    color: rgb(244, 242, 222);
+    font-family: summer;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; 
+    margin-top: 20px; 
+}
+
+.box {
+    width: 500px; 
+    height: 500px; 
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(244, 242, 222);
+    color: rgb(233, 179, 132);
+    box-shadow: 10px 10px rgb(124, 157, 150);
+}
+
+
+ .image-box {
+    display: flex;
+    align-items: center;
+}
+
+img {
+   width: 125px;
+   height: 125px;
+   margin: 10px;
+    
+}
+
+p{
+    font-size: x-large;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
